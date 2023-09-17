@@ -8,4 +8,4 @@
 2)
   Figures_and_Analysis - Jupyter notebook containing the analysis after the calculation of SS and Poynting Flux. It is recommended to go through the Files_and_Variables notebook first, before opening this notebook.
 
-Note: The datasets used for this project are huge and cannot be uploaded here. However, it can be distributed on a request basis.
+Note: The datasets used for this project are very large in volume and also protected by license and hence cannot be uploaded here. However, this code will work for any 3D Vector field data set.
