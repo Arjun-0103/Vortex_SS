@@ -91,7 +91,7 @@ def swirl_loc(vx, vy, vz, fname):
     loc = np.where(np.sum(np.abs(EV1.imag), axis = 3) != 0)
 
     # Magnitude of imaginary part of eigenvalue gives the swirling strength (SS) magnitude
-    sw = np.sum(np.abs(EV1[loc]), axis=1)/2
+    sw = np.sum(np.abs(EV1[loc].imag), axis=1)/2
     del EV1
 
     # Store location along with SS value in file
